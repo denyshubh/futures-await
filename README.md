@@ -6,7 +6,7 @@ Async/await syntax for Rust and the [`futures`] crate
 
 ## What is this?
 
-The primary way of working with futures today in Rust is through the various
+primary way of working with futures today in Rust is through the various
 combinators on the [`Future`] trait. This is not quite "callback hell" but can
 sometimes feel like it as the rightward drift of code increases for each new
 closure you tack on. The purpose of async/await is to provide a much more
